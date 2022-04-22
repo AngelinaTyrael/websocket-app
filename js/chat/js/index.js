@@ -22,7 +22,6 @@
       if (!msg.trim().length) {
         return;
       }
-
       ws.send(JSON.stringify({
         user: username,
         dateTime: new Date().getTime(),
